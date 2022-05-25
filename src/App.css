@@ -2,7 +2,11 @@
 
 
 .App {
-    width: 1366px;
-    margin: 0 auto;
     font-family: 'Roboto', sans-serif;
+}
+
+.body-areas {
+    max-width: 1366px;
+    margin: 0 auto;
+
 }
