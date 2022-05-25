@@ -1,6 +1,6 @@
 import React from "react";
 import "./style.css";
-import bannerBackground from "../../assets/img/banner.jpeg";
+
 
 const Banner = () => (
   <>
