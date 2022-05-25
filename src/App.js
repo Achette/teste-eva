@@ -14,6 +14,7 @@ function App() {
       <div className="body-areas">
         <Banner />
         <Sales />
+        
       </div>
     </div>
   );
