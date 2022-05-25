@@ -1,0 +1,16 @@
+.sales-cards {
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0 80px;
+}
+
+.sales-cards p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #e11383;
+}

@@ -1,0 +1,20 @@
+.sales-container {
+    width: 100%;
+    height: 205px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sales-content {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.borders {
+    border-right: 1px solid #DADFEB;
+    border-left: 1px solid #DADFEB;
+}
+
