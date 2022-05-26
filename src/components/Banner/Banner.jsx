@@ -4,7 +4,7 @@ import "./style.css";
 
 const Banner = () => {
   return (
-    <div>
+    <div className="container">
       <div id="banner-style" className="banner-content"></div>
 
       <div className="text-banner">

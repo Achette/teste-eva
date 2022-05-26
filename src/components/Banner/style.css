@@ -1,7 +1,13 @@
+.container {
+  max-width: 1366px;
+  height: auto;
+}
+
 .banner-content {
   height: 374.31px;
   width: 100%;
-  /* transform: matrix(1, -0.05, 0.07, 1, 0, 0); */
+  /*  transform: matrix(1, -0.05, 0.07, 1, 0, 0); */
+  z-index: -1;
 }
 
 #banner-style {
@@ -13,8 +19,8 @@
     ),
     url("../../assets/img/banner.jpeg");
   width: auto;
-  background-size:cover;
-  background-repeat: ;
+  background-size: cover;
+  /* background-repeat: ; */
   background-position-y: -8rem;
   position: relative;
 }
@@ -22,7 +28,6 @@
 .text-banner {
   position: absolute;
   color: #fdfdfd;
-  /* left: calc(50% - 356px / 2 - 341px); */
   top: 190px;
   display: flex;
   flex-wrap: wrap;

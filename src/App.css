@@ -8,5 +8,5 @@
 .body-areas {
     max-width: 1366px;
     margin: 0 auto;
-
+    z-index: 2;
 }

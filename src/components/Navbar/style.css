@@ -6,8 +6,6 @@ header {
   flex-direction: column;
   justify-content: center;
   align-self: center;
-  z-index: 1;
-
 }
 
 nav {
