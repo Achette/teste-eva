@@ -24,9 +24,23 @@
 
 .carrosel-content {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: space-evenly;
   height:unset;
+}
+
+.carrosel-slider {
+  display: flex;
+  width: 1040px;
+  justify-content: space-around;
+  scroll-behavior: smooth;
+  
+}
+
+.carrosel-content button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
 }
 
 .arrow {
