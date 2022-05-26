@@ -12,7 +12,14 @@
   line-height: 28px;
   color: #0c0d0d;
   margin: 0 0 42px 0;
-/*   margin-top: 64px; */
+}
+
+.container-carrosel hr {
+    width: 64px;
+    height: 3px;
+    background-color: #E11383;
+    border: none;
+    margin: 0 0 0 165px;
 }
 
 .carrosel-content {

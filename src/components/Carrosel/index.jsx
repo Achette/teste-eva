@@ -7,6 +7,7 @@ import './carrosel.css'
 const Carrosel = ({ title }) => {
   return (
     <div className='container-carrosel' >
+      <hr/>
         <h2>{title}</h2>
         <div className='carrosel-content'>
           <img className='arrow' src={arrowLeft} alt="" />
