@@ -1,9 +1,8 @@
 import React, { useEffect, useState } from 'react'
 import "./App.css";
-
+import 'bootstrap/dist/css/bootstrap.css'
 import Banner from "./components/Banner/Banner";
 import Carrosel from "./components/Carrosel";
-
 import Categories from "./components/Categories";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar/Navbar";
@@ -27,9 +26,9 @@ function App() {
         <Sales />
         <Categories />
         <Carrosel title="Destaques" data={data} />
-        <Carrosel title="Destaques em livros" data={data.filter(item => item.category === 'electronics')} />
-  {/*       <Carrosel title="Destaques em escritório" />
-        <Carrosel title="Destaques em vestuário" /> */}
+        <Carrosel title="Destaques em eletrônicos" data={data.filter(item => item.category === 'electronics')} />
+        <Carrosel title="Destaques em jóias" data={data.filter(item => item.category === "jewelery")}/>
+        <Carrosel title="Destaques em vestuário masculino" data={data.filter(item => item.category === "men's clothing")}/>
         <NewsField />
         <Footer />
       </div>

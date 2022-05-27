@@ -31,6 +31,10 @@
   scroll-behavior: smooth;
 }
 
+.container-carrosel .carrosel-slider::-webkit-scrollbar {
+  display: none;
+}
+
 .carrosel-slider {
   display: flex;
   flex-direction: row;
