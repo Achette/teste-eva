@@ -28,24 +28,24 @@
   align-items: center;
   justify-content: space-around;
   height:unset;
-  scroll-behavior: smooth;
+  
 }
 
-.container-carrosel .carrosel-slider::-webkit-scrollbar {
-  display: none;
-}
 
-.carrosel-slider {
+.carroselSlider {
   display: flex;
   flex-direction: row;
   width: 100%;
   justify-content: space-between;
- 
-  
 }
 
-.container-carrosel .carrosel-slider {
+.container-carrosel .carroselSlider {
   overflow-x: auto;
+  scroll-behavior: smooth;
+}
+
+.container-carrosel .carroselSlider::-webkit-scrollbar {
+  display: none;
 }
 
 .carrosel-content button {
@@ -56,6 +56,7 @@
 
 .arrow {
     margin: auto 0;
+    border: none;
  
 }
 
