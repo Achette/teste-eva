@@ -10,7 +10,7 @@
   border-radius: 4px;
 }
 
-.carrosel-card-container .item-img {
+.carrosel-card-container .item-img img{
   width: 200px;
   height: 200px;
   background-color: teal;

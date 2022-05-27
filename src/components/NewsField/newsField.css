@@ -48,9 +48,14 @@
 button {
   background: #e11383;
   border-radius: 4px;
-  width: 266px;
+  /* width: 266px; */
   height: 42px;
   border: none;
+}
+
+button:hover {
+border: 2px solid red;
+
 }
 
 button a {
@@ -72,6 +77,7 @@ button a {
 
 .news-input .error {
     border: 1px solid #E11383;
+    color: #E11383;
 }
 
 #message-error {
