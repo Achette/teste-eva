@@ -1,0 +1,46 @@
+.footer-container {
+  width: 100%;
+  height: 256px;
+  background-color: #0c0d0d;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.footer-container h2 {
+  width: 100px;
+  color: #e11383;
+  border-bottom: 3px solid #fdfdfd;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.container-elements {
+    width: 780px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.element {
+    font-weight: 300;
+}
+
+.elements-contact {
+    display: flex;
+    align-items: center;
+    color: #fdfdfd;
+    font-weight: 300;
+    margin: 6px 0 8px 0;
+}
+
+.elements-contact p {
+    margin: 0;
+    
+}
+
+.elements-contact img {
+    padding-right: 8px;
+
+}

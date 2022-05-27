@@ -4,6 +4,7 @@ import Banner from "./components/Banner/Banner";
 import Carrosel from "./components/Carrosel";
 
 import Categories from "./components/Categories";
+import Footer from "./components/Footer";
 import Navbar from "./components/Navbar/Navbar";
 import NewsField from "./components/NewsField";
 import Sales from './components/Sales/Sales'
@@ -23,6 +24,7 @@ function App() {
         <Carrosel title="Destaques em escritório" />
         <Carrosel title="Destaques em vestuário" />
         <NewsField />
+        <Footer />
       </div>
     </div>
   );
