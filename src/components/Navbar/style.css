@@ -22,15 +22,16 @@ nav {
 .logo {
   height: 32px;
   width: 80px;
-  margin: 20px 0;;
+  margin: 20px 0;
+  ;
 
 }
 
 .nav-content {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 10px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
 }
 
 .nav-content a {
@@ -44,17 +45,27 @@ nav {
 }
 
 .categorias {
-    align-items: flex-end;
+  align-items: flex-end;
 }
 
 .nav-input {
-width: 450px;
-height: 32px;
-left: calc(50% - 450px/2 + 6px);
-top: 16px;
-background: #FDFDFD;
-border-radius: 4px;
-margin: 0 15px
+  width: 80vw;
+  height: 32px;
+  left: calc(50% - 450px/2 + 6px);
+  top: 16px;
+  background: #FDFDFD;
+  border-radius: 4px;
+  margin: 0 15px
+}
+
+@media(min-width: 768px) {
+  header {
+    width: 100%;
+  }
+
+  .nav-input {
+    width: 450px;
+  }
 }
 
 @media(min-width: 992px) {
@@ -66,6 +77,10 @@ margin: 0 15px
   nav {
     flex-direction: row;
     padding: 0 10px;
+  }
+
+  .nav-input {
+    width: 450px;
   }
 }
 

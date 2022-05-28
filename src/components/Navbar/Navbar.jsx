@@ -10,8 +10,6 @@ const Navbar = () => {
     <header>
       <nav>
         <img className="logo" src={evaLogo} alt="" />
-
-        
           <div className="nav-content categorias">
             <a href="/">Categorias</a>
             <img src={setaCategorias} alt="" />

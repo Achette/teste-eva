@@ -11,6 +11,7 @@ import Sales from './components/Sales/Sales'
 
 
 
+
 function App() {
   const [data, setData] = useState([])
 
@@ -23,14 +24,15 @@ function App() {
       <Navbar />
       <div className="body-areas">
         <Banner />
-        <Sales />
+        {/* <Sales />
         <Categories />
         <Carrosel title="Destaques" data={data} />
         <Carrosel title="Destaques em eletrônicos" data={data.filter(item => item.category === 'electronics')} />
         <Carrosel title="Destaques em jóias" data={data.filter(item => item.category === "jewelery")}/>
         <Carrosel title="Destaques em vestuário masculino" data={data.filter(item => item.category === "men's clothing")}/>
         <NewsField />
-        <Footer />
+        <Footer /> */}
+       
       </div>
     </div>
   );
