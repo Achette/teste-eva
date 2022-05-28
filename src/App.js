@@ -25,12 +25,12 @@ function App() {
       <div className="body-areas">
         <Banner />
          <Sales />
-        {/*<Categories />
+        <Categories />
         <Carrosel title="Destaques" data={data} />
         <Carrosel title="Destaques em eletrônicos" data={data.filter(item => item.category === 'electronics')} />
         <Carrosel title="Destaques em jóias" data={data.filter(item => item.category === "jewelery")}/>
         <Carrosel title="Destaques em vestuário masculino" data={data.filter(item => item.category === "men's clothing")}/>
-        <NewsField />
+        {/*<NewsField />
         <Footer /> */}
        
       </div>

@@ -1,11 +1,12 @@
 .container-carrosel {
   height: auto;
-  max-width: 85vw;
+  max-width: 90vw;
+  margin: 0 auto;
   margin-bottom: 64px;
 }
 
 .container-carrosel h2 {
-  padding-left: 165px;
+  padding-left: 2.5rem;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -15,11 +16,11 @@
 }
 
 .container-carrosel hr {
-    width: 64px;
-    height: 3px;
-    background-color: #E11383;
-    border: none;
-    margin: 0 0 0 165px;
+  width: 64px;
+  height: 3px;
+  background-color: #e11383;
+  border: none;
+  margin: 0 0 0 2.5rem;
 }
 
 .carrosel-content {
@@ -27,10 +28,8 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
-  height:unset;
-  
+  height: unset;
 }
-
 
 .carroselSlider {
   display: flex;
@@ -54,10 +53,14 @@
   cursor: pointer;
 }
 
-.arrow {
-    margin: auto 0;
-    border: none;
- 
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: auto;
+  width: 100%;
+  margin-right: 16px;
 }
 
 .item-image img {
@@ -66,13 +69,61 @@
   padding: 18px;
 }
 
-.item {
-  height: auto;
-  width: 100%;
-}
-
 .item-info {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: #f7faff;
+  padding: 8px 25px 16px;
+}
+
+.item-info .name {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
+  color: #000000;
+}
+
+.item-info .rating {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #3c3e40;
+  margin: 8px;
+}
+
+.item-info .price {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+  color: #e11383;
+  margin-bottom: 16px;
+}
+
+.item-info .buy {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 220px;
+  height: 42px;
+  background-color: #e11383;
+  border-radius: 8px;
+}
+
+.item:hover {
+  border: 1px solid #ba0668;
+  border-radius: 4px;
+}
+
+.item-info .buy a {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #fdfdfd;
+  text-decoration: none;
+}
+
+.arrow {
+  margin: auto 0;
+  border: none;
 }

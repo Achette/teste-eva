@@ -1,5 +1,5 @@
-
-
+import React from 'react'
+import stars from '../../assets/img/estrelas.svg'
 import arrowLeft from '../../assets/img/arrow-left.svg'
 import arrowRight from '../../assets/img/arrow-right.svg'
 import './carrosel.css'
@@ -31,7 +31,7 @@ const Carrosel = ({ title, data }) => {
 
         <div className="carroselSlider" ref={carroselSlider}>
           {data.map((item) => {
-            const { id, title, price, image } = item
+            const { id, title, price, image, rating } = item
 
             return (
               <div className='item' key={id}>
@@ -40,8 +40,9 @@ const Carrosel = ({ title, data }) => {
                 </div>
                 <div className='item-info'>
                   <span className='name'>{title}</span>
-                  {/*  <span className='rating'>{rating}</span> */}
+                   <span className='rating'>{rating.rate}</span>
                   <span className='price'>{price.toFixed(2)}</span>
+                <span className='buy'> <a href="">Comprar</a> </span>
                 </div>
               </div>
             )
