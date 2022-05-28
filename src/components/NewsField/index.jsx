@@ -34,14 +34,16 @@ const NewsField = () => {
                         <p>Receba nossas novidades, descontos e muito mais</p>
                     </div>
 
-                        {erro.email ? <p id="message-error">E-mail inválido!</p> : undefined}
                     
                     <div className="news-input">
                         <input onChange={(e) => setCadastro({...cadastro, nome: e.target.value})} 
                         type="text" placeholder='Digite seu nome' />
 
-                        <input onChange={(e) => setCadastro({...cadastro, email: e.target.value})}
-                        id='email' className={erro.email ? 'error' : ''} type="text" placeholder='Digite seu e-mail' />
+                        <div>
+                            {erro.email ? <p id="message-error">E-mail inválido!</p> : undefined}
+                            <input onChange={(e) => setCadastro({...cadastro, email: e.target.value})}
+                            id='email' className={erro.email ? 'error' : ''} type="text" placeholder='Digite seu e-mail' />
+                        </div>
                     </div>
 
                     <button onClick={verifyFields}> <a href="#"> Eu quero receber novidades!</a></button>

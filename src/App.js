@@ -30,8 +30,8 @@ function App() {
         <Carrosel title="Destaques em eletrônicos" data={data.filter(item => item.category === 'electronics')} />
         <Carrosel title="Destaques em jóias" data={data.filter(item => item.category === "jewelery")}/>
         <Carrosel title="Destaques em vestuário masculino" data={data.filter(item => item.category === "men's clothing")}/>
-        {/*<NewsField />
-        <Footer /> */}
+        <NewsField />
+        {/*<Footer /> */}
        
       </div>
     </div>
