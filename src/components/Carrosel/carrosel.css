@@ -76,6 +76,7 @@
   background-color: #f7faff;
   padding: 8px 25px 16px;
   width: 185px;
+  border-radius: 4px;
 }
 
 .item-info .name {

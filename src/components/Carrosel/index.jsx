@@ -40,7 +40,7 @@ const Carrosel = ({ title, data }) => {
                 </div>
                 <div className='item-info'>
                   <span className='name'>{title}</span>
-                   <span className='rating'>{rating.rate}</span>
+                   <span className='rating'>Avaliação: {rating.rate}</span>
                   <span className='price'>$ {price.toFixed(2)}</span>
                 <span className='buy'> <a href="#">Comprar</a> </span>
                 </div>
