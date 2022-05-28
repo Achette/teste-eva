@@ -3,6 +3,7 @@
   flex-direction: column;
   height: 170px;
   justify-content: space-between;
+  align-items: center;
 }
 
 .elements-container a {
@@ -11,4 +12,11 @@
   text-decoration: none;
   cursor: pointer;
   color: #fdfdfd;
+}
+
+@media(min-width: 768px) {
+  .elements-container{
+
+    align-items: flex-start;
+  }
 }
