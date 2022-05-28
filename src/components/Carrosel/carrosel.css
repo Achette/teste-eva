@@ -59,7 +59,7 @@
   justify-content: center;
   flex-direction: column;
   height: auto;
-  width: 100%;
+  width: 236px;
   margin-right: 16px;
 }
 
@@ -75,6 +75,7 @@
   align-items: center;
   background-color: #f7faff;
   padding: 8px 25px 16px;
+  width: 185px;
 }
 
 .item-info .name {
