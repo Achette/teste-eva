@@ -24,8 +24,8 @@ function App() {
       <Navbar />
       <div className="body-areas">
         <Banner />
-        {/* <Sales />
-        <Categories />
+         <Sales />
+        {/*<Categories />
         <Carrosel title="Destaques" data={data} />
         <Carrosel title="Destaques em eletrônicos" data={data.filter(item => item.category === 'electronics')} />
         <Carrosel title="Destaques em jóias" data={data.filter(item => item.category === "jewelery")}/>

@@ -5,12 +5,28 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-  margin: 0 80px;
+  margin: 0 auto;
 }
 
 .sales-cards p {
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 19px;
   color: #e11383;
+  margin: 0;
+}
+
+@media(min-width: 576px) {
+  .sales-cards {
+    margin: 0 20px;
+  }
+}
+
+@media(min-width: 768px) {
+  .sales-cards {
+    margin: 0 80px;
+  }
+  .sales-cards p {
+    font-size: 16px;
+  }
 }
