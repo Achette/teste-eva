@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react'
 import "./App.css";
-import 'bootstrap/dist/css/bootstrap.css'
 import Banner from "./components/Banner/Banner";
 import Carrosel from "./components/Carrosel";
 import Categories from "./components/Categories";

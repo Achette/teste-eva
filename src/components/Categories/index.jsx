@@ -9,7 +9,7 @@ const Categories = () => {
   return (
     <div className='categories-container'>
         <CategoryCard imageFile={livros} altTxt="books" label="Livros" />
-        <CategoryCard imageFile={escritorio} altTxt="office room" label="Escritório" />
+        <CategoryCard imageFile={escritorio} altTxt="office room" label="Eletrônicos" />
         <CategoryCard imageFile={vestuario} altTxt="wear" label="Vestuário" />
     </div>
   )

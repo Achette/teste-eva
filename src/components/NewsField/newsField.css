@@ -87,9 +87,26 @@ button a {
 }
 
 @media(min-width: 992px) {
+
+  .news-container {
+    
+    height: 352px;
+  }
+
+  .news-content-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 48px 0;
+  }
+
+  .news-promo {
+    margin-top: 0;
+  }
+
+
   .news-input {
     flex-direction: row;
-    margin: 48px 0 48px 0;
+    margin: 24px 0 24px 0;
   }
   
   .news-input input {
@@ -98,7 +115,7 @@ button a {
   }
 
   #message-error {
-    margin-top: -14px;
+    margin-top: -14.5px;
     margin-left: 23px;
   }
 }
