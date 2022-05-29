@@ -23,8 +23,6 @@ nav {
   height: 32px;
   width: 80px;
   margin: 20px 0;
-  ;
-
 }
 
 .nav-content {
@@ -42,13 +40,6 @@ nav {
   text-decoration: none;
   font-weight: 300;
   margin-right: 8px;
-}
-
-select {
-  appearance: none;
-  background-color: transparent;
-  border: none;
-  border-radius: 1px solid #CCC;
 }
 
 .categorias {
@@ -79,10 +70,11 @@ select {
   header {
     flex-direction: row;
     height: 64px;
+    width: 100%;
   }
 
   nav {
-    flex-direction: row;
+      flex-direction: row;
     padding: 0 10px;
   }
 
