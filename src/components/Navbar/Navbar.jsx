@@ -11,8 +11,13 @@ const Navbar = () => {
       <nav>
         <img className="logo" src={evaLogo} alt="" />
           <div className="nav-content categorias">
-            <a href="/">Categorias</a>
-            <img src={setaCategorias} alt="" />
+  
+            <select name="" id="">
+            <option value="">Categorias</option>
+            <option value="">Eletrônicos</option>
+            <option value="">Jóias</option>
+            <option value="">Vestuário</option>
+            </select>
           </div>
 
           <div className="nav-content ">
@@ -28,7 +33,6 @@ const Navbar = () => {
             <a href="#">Carrinho(2)</a>
             <img src={carrinho} alt="" />
           </div>
-        
       </nav>
     </header>
   );

@@ -39,6 +39,21 @@ nav {
   margin-right: 8px;
 }
 
+select {
+  background-color: transparent;
+  color: white;
+  font-weight: 300;
+  border: none;
+  font-size: 16px;
+}
+
+option {
+  width: auto;
+  color: #0c0d0d;
+  padding: 8px 100px 8px 16px;
+  border-bottom: 1px solid #0c0d0d;
+}
+
 .categorias {
   align-items: flex-end;
 }
