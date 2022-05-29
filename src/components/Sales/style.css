@@ -1,28 +1,25 @@
 .sales-container {
-    width: 100%;
-    height: auto;
-    display: flex;  
-    align-items: center;
-    justify-content: center;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .sales-content {
-    width: 100vw;
-    display: flex;
-    align-items: center;
-    flex-wrap: nowrap;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding-top: 1rem;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1rem;
 }
 
-@media(min-width: 576px) {
-    .borders {
-        border-right: 1px solid #DADFEB;
-        border-left: 1px solid #DADFEB;
-    }
-
+@media (min-width: 576px) {
+  .borders {
+    border-right: 1px solid #dadfeb;
+    border-left: 1px solid #dadfeb;
+  }
 }
-
-

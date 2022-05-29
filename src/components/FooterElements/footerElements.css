@@ -14,9 +14,8 @@
   color: #fdfdfd;
 }
 
-@media(min-width: 768px) {
-  .elements-container{
-
+@media (min-width: 768px) {
+  .elements-container {
     align-items: flex-start;
   }
 }

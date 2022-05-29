@@ -1,6 +1,6 @@
 header {
   background-color: #0c0d0d;
-  width: 100%;
+  width: 100vw;
   height: auto;
   display: flex;
   flex-direction: column;
@@ -14,9 +14,8 @@ nav {
   display: flex;
   align-items: center;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-direction: column;
-
 }
 
 .logo {
@@ -27,8 +26,6 @@ nav {
 
 .nav-content {
   display: flex;
-  justify-content: center;
-  align-items: center;
   margin: 10px 0;
 }
 
@@ -47,16 +44,14 @@ nav {
 }
 
 .nav-input {
-  width: 80vw;
+  width: 70vw;
   height: 32px;
-  left: calc(50% - 450px/2 + 6px);
   top: 16px;
-  background: #FDFDFD;
+  background: #fdfdfd;
   border-radius: 4px;
-  margin: 0 15px
 }
 
-@media(min-width: 768px) {
+@media (min-width: 768px) {
   header {
     width: 100%;
   }
@@ -66,7 +61,7 @@ nav {
   }
 }
 
-@media(min-width: 992px) {
+@media (min-width: 992px) {
   header {
     flex-direction: row;
     height: 64px;
@@ -74,8 +69,8 @@ nav {
   }
 
   nav {
-      flex-direction: row;
-    padding: 0 10px;
+    flex-direction: row;
+    margin: 0 auto;
   }
 
   .nav-input {
@@ -83,13 +78,13 @@ nav {
   }
 }
 
-@media(min-width: 1200px) {
+@media (min-width: 1200px) {
   nav {
     padding: 0 82px;
   }
 }
 
-@media(min-width: 1366px) {
+@media (min-width: 1366px) {
   nav {
     padding: 0 164px;
   }
