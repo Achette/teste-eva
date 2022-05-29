@@ -77,11 +77,12 @@
     flex-direction: row;
     justify-content: space-around;
     height: auto;
+   
   }
 
   .container-elements {
     height: 122px;
-    margin: 0;
+    margin: 0 30px;
   }
 
   .container-contact-elements {
