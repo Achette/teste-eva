@@ -1,5 +1,5 @@
 import React from 'react'
-import stars from '../../assets/img/estrelas.svg'
+import ReactStars from 'react-rating-stars-component'
 import arrowLeft from '../../assets/img/arrow-left.svg'
 import arrowRight from '../../assets/img/arrow-right.svg'
 import './carrosel.css'
@@ -21,6 +21,10 @@ const Carrosel = ({ title, data }) => {
     carroselSlider.current.scrollLeft += carroselSlider.current.offsetWidth
   }
 
+  const ratingChanged = () => {
+    
+  }
+
 
   return (
     <div className='container-carrosel' >
@@ -40,7 +44,13 @@ const Carrosel = ({ title, data }) => {
                 </div>
                 <div className='item-info'>
                   <span className='name'>{title}</span>
-                   <span className='rating'>Avaliação: {rating.rate}</span>
+                  <ReactStars 
+                  count={5}
+                  onChange={ratingChanged}
+    size={24}
+    activeColor="#ffd700"
+                  />
+                   <span className='rating'>Rating: {rating.rate}</span>
                   <span className='price'>$ {price.toFixed(2)}</span>
                 <span className='buy'> <a href="#">Comprar</a> </span>
                 </div>

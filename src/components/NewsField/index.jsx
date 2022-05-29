@@ -10,7 +10,6 @@ const NewsField = () => {
 
     const verifyFields = (e) => {
         e.preventDefault()
-        console.log(cadastro)
        if(!cadastro.email) {
            setErro({...erro, email: true} )
           

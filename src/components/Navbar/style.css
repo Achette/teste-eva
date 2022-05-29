@@ -44,6 +44,13 @@ nav {
   margin-right: 8px;
 }
 
+select {
+  appearance: none;
+  background-color: transparent;
+  border: none;
+  border-radius: 1px solid #CCC;
+}
+
 .categorias {
   align-items: flex-end;
 }
